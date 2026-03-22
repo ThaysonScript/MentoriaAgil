@@ -1,5 +1,9 @@
 name: CI Backend - Mentoria Ágil
 
+permissions:
+  pull-requests: read
+  contents: read
+
 on:
   push:
     branches: [ main, desenvolvimento, correcao-bugs ]
